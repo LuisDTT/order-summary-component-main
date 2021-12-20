@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+.main {
+  font-family: "Red Hat Display", sans-serif;
+  background: url(images/pattern-background-mobile.svg);
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.order-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  min-width: 340px;
+  margin: 0 20px;
+  border-radius: 20px;
+  overflow: hidden; }
+  .order-card__hero {
+    width: 100%; }
+  .order-card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .order-card__info {
+    margin: 10px 0;
+    text-align: center;
+    width: 85%; }
+    .order-card__info-title {
+      color: #1f2f56; }
+    .order-card__info-text {
+      color: #7280a7;
+      line-height: 1.7rem;
+      font-size: 16px; }
+  .order-card__plan {
+    background: #f5f7ff;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 5px 0; }
+    .order-card__plan-info {
+      margin-left: -30px; }
+    .order-card__plan-title {
+      margin-bottom: 0;
+      color: #1f2f56;
+      font-weight: 900; }
+    .order-card__plan-price {
+      margin-top: 7px;
+      color: #7280a7; }
+    .order-card__plan-change {
+      color: #3829e0; }
+      .order-card__plan-change:hover {
+        text-decoration: none; }
+  .order-card__btn {
+    margin: 20px 0;
+    background: #3829e0;
+    border: none;
+    width: 80%;
+    padding: 11px 0;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.15); }
+    .order-card__btn:hover {
+      opacity: 0.7; }
+  .order-card__cancel {
+    font-size: 13px;
+    font-weight: 900;
+    color: #7280a7;
+    text-decoration: none;
+    margin-bottom: 40px; }
+    .order-card__cancel:hover {
+      color: #1f2f56; }
+
+.attribution {
+  position: absolute;
+  top: 96%; }
+
+@media screen and (min-width: 500px) {
+  .main {
+    background: url(images/pattern-background-desktop.svg);
+    background-color: #e0e8ff;
+    background-repeat: no-repeat; }
+
+  .order-card {
+    max-width: 350px; }
+    .order-card__info-text {
+      font-size: 13px;
+      line-height: 1.4rem; }
+    .order-card__plan {
+      font-size: 13px; }
+      .order-card__plan-icon {
+        height: 40px; }
+      .order-card__plan-info {
+        margin-left: -15%; } }
+
+/*# sourceMappingURL=main.css.map */

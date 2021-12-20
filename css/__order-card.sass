@@ -1,0 +1,83 @@
+.main
+	font-family: 'Red Hat Display', sans-serif
+	background: url(images/pattern-background-mobile.svg)
+	background-color: $pale-blue
+	background-repeat: no-repeat
+	height: 100vh
+	display: flex
+	justify-content: center
+	align-items: center
+
+.order-card
+	background: #fff
+	display: flex
+	flex-direction: column
+	min-width: 340px 
+	margin: 0 20px
+	border-radius: 20px
+	overflow: hidden
+
+	&__hero	
+		width: 100%
+	&__body
+		display: flex
+		flex-direction: column
+		align-items: center
+	&__info
+		margin: 10px 0
+		text-align: center
+		width: 85%
+		&-title
+			color: $dark-blue
+		&-text
+			color: $desaturated-blue
+			line-height: 1.7rem
+			font-size: 16px
+	&__plan
+		background: $very-pale-blue
+		display: flex
+		align-items: center
+		width: 80%
+		justify-content: space-around
+		border-radius: 10px
+		padding: 5px 0
+		&-info
+			margin-left: -30px
+		&-title
+			margin-bottom: 0
+			color: $dark-blue
+			font-weight: 900
+		&-price
+			margin-top: 7px
+			color: $desaturated-blue
+		&-change
+			color: $bright-blue	
+			&:hover
+				text-decoration: none
+	&__btn
+		margin: 20px 0
+		background: $bright-blue
+		border: none
+		width: 80%
+		padding: 11px 0
+		font-size: 12px
+		font-weight: 900
+		color: #fff
+		border-radius: 10px
+		cursor: pointer
+		box-shadow: 0 15px 15px 0 rgba(0, 0, 0, .15)
+		&:hover
+			opacity: .7
+	&__cancel
+		font-size: 13px
+		font-weight: 900
+		color: $desaturated-blue
+		text-decoration: none
+		margin-bottom: 40px
+		&:hover
+			color: $dark-blue
+.attribution
+	position: absolute
+	top: 96%
+
+
